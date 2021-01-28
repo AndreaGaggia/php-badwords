@@ -18,7 +18,7 @@
     <body>
         <code style="color: purple">index.php?parola=BADWORD</code>
         <p><?php echo $p?></p>
-        <p>Lunghezza del paragrafo sopra: <?php echo strlen($p)?></p>
+        <p>Lunghezza del paragrafo sopra: <?php echo strlen($p)?> caratteri</p>
         <p>
             <?php echo str_replace($parola, "***", $p) ?>
         </p>
